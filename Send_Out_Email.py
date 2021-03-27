@@ -3,8 +3,6 @@ import win32com.client as win32
 import base64
 import csv
 from jinja2 import Environment, FileSystemLoader
-import io
-from exchangelib import FileAttachment
 
 def send_email(recipient,addressee,fee_paid,next_meeting):
     # Create Object
